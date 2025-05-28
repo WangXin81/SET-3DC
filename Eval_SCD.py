@@ -46,11 +46,11 @@ def cal_kappa(hist):
 
 def Eval():
     IMAGE_FORMAT = '.png'
-
-    INFER_DIR1 = 'E://遥感图像变化检测//大论文//算法整理//SET-3DC//predict//SECOND//SECOND2025XR_DCIE//im1//'  # Inference path1
-    INFER_DIR2 = 'E://遥感图像变化检测//大论文//算法整理//SET-3DC//predict//SECOND//SECOND2025XR_DCIE//im2//'  # Inference path2
-    LABEL_DIR1 = 'E://遥感图像变化检测//算法模型//第四章算法//data_second//test//label1_index//'  # GroundTruth path
-    LABEL_DIR2 = 'E://遥感图像变化检测//算法模型//第四章算法//data_second//test//label2_index//'  # GroundTruth path
+    # Then we should replace the path here with the relative path of the dataset
+    INFER_DIR1 = '/SET-3DC/predict/SECOND/SECOND2025XR_DCIE/im1/'  # Inference path1
+    INFER_DIR2 = '/SET-3DC/predict/SECOND/SECOND2025XR_DCIE/im2/'  # Inference path2
+    LABEL_DIR1 = '/data_second/test/label1_index/'  # GroundTruth path
+    LABEL_DIR2 = '/data_second/test/label2_index/'  # GroundTruth path
 
     infer_list1 = glob.glob(INFER_DIR1 + "*{}".format(IMAGE_FORMAT))
     infer_list2 = glob.glob(INFER_DIR2 + "*{}".format(IMAGE_FORMAT))

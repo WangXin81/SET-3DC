@@ -1,5 +1,5 @@
 # SET-3DC
-
+This repository contains the codebase for SET-3DC, implemented using PyTorch for conducting experiments on SECOND and HRSCD.
 ## Data preparation:
 ```
 train  
@@ -38,5 +38,13 @@ HRSCD:
 
 3.Python 3.10
 
+## Train and Test
+The training and evaling pipeline is organized in train.py and Eval_SCD.py.
+```bash
+python train.py
+```
 
+```bash
+python Eval_SCD.py
+```
 

@@ -20,7 +20,7 @@ test
 ```
 ## FIGS        
 
-![图4.2.1](C:\Users\11139\Desktop\图4.2.1.png)
+![image](/figs/fig1.jpg)
 
 ## Datasets
 
